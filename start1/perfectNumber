@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+  using namespace std;
+  
+  int main()
+  {
+    //write your code here
+    int input;
+    int sum;
+    int number;
+    cin>>input;
+    int i;
+    while(input--){
+    cin>>number;
+    sum=0;
+    for(i=1;i<number;i++){
+      if(number%i==0)
+      sum=sum+i;
+    }
+    //cout<<sum;
+    if (sum==number)
+    cout<<"true";
+    else cout<<"false";
+    
+    cout<<endl;
+    }
+    return 0;
+  }

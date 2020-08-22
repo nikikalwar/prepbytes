@@ -1,0 +1,40 @@
+#include <bits/stdc++.h>
+  using namespace std;
+  
+  int main()
+  {
+  int pattern;  //write your code here
+    int spaces;
+    cin>>pattern;
+    int n=1;
+    int i=0;
+    int counter=1;
+    int counter2=1;
+    int j,k;
+    spaces=8;
+    while(counter<=5){
+    //spaces=8;
+    for(i=1;i<=counter;i++){
+      cout<<i;
+    }
+    counter2=spaces;
+    for(j=1;j<=spaces;j++){
+      cout<<" "<<" ";
+    }
+    spaces=spaces-2;
+    for(k=counter;k>=1;k--)
+    cout<<k;
+     cout<<endl;
+   // counter2++;
+    
+    //nextcount=1;
+    
+  //  for(j=5;j>)}
+  
+  counter++;
+ 
+    }
+    
+
+    return 0;
+  }
