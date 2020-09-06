@@ -10,4 +10,9 @@ string str2;
 getline(cin,str2);
 cout<<str2;
 
+str2.push_back('E');
+str2.pop_back('E');
+cout<<str2;
+
 */
+
