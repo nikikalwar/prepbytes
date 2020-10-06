@@ -103,6 +103,23 @@ class Car {
 
   Car car1=Car(8,"Red","xyz");
 
+//constructors with default arguments
+
+class Car {
+    private:
+    int wheels;
+    string color;
+    string model;
+
+    public:
+    Car(int n1=4, string n2, string n3);
+    void drive();
+};
+
+Car car1("red","xyz");//takes default value of wheels as n1=4;
+Car car2(8,"Red","exyz");//ignore the default value
+
+//constructor overloading
 
 
 
