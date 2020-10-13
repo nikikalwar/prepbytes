@@ -1,0 +1,7 @@
+Functions in string class
+
+1.getline()
+2.push_back()-->appends to the last
+3.pop_back()
+
+
